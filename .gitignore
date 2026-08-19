@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Raw dataset
+notebooks/data/
+*.csv
+
+# Large trained model (>50 MB): keep it locally, do not commit it to GitHub.
+backend/models/house_price.pkl
